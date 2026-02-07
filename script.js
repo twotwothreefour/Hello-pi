@@ -8,7 +8,7 @@ const noBtn = document.querySelector(".no-btn");
 const audio = new Audio("wistke.mp3");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "YEHEY!!, see you on the 16th!";
+  question.innerHTML = "YEHEY!!, see you on the 14th!";
   gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
 
   // Add a 3-second delay before playing the music
@@ -30,3 +30,4 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
 });
+
